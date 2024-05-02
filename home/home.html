@@ -2,22 +2,28 @@
 <html lang="en">
 	<head>
 		<title>Karen Wast3r</title>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width">
-		<meta name="robots" content="noindex">
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="robots" content="noindex" />
+		<link rel="stylesheet" href="../style.css" />
+		<link href='https://fonts.googleapis.com/css?family=JetBrains Mono' rel='stylesheet' /> 
+		<link href='https://fonts.googleapis.com/css?family=Josefin Sans' rel='stylesheet' />
 	</head>
 	<body>
 		<div class="topnav">
 			<p class="username">user@wast3r: </p>
-			<a class="active" href="/home">cd ./home/</a>
-			<a href="/projects">./project/</a>
-			<a href="/blog">./blog/</a>
-			<a href="/books">./books/</a>
+			<a class="active" href="#">cd ./home/</a>
+			
+			<span style="float:right;">
+				<a href="/projects">./project/</a>
+				<a href="/blog">./blog/</a>
+				<a href="/books">./books/</a>
+			</span>
 		</div>
 
-		<p class="type">user@wast3r: whoami</p>
+		<p class="username" id="type">user@wast3r: <span class="active">whoami</span></p>
 
-		<h1 class="name">Karen</h1>
+		<h1 class="name">Karen Pedri</h1>
 
 		<p>I am a Software Engineer currently based in the New York City area with a specialty in back-end 
 		development.</p>
@@ -37,20 +43,33 @@
 		</ul>
 
 		<div class="extras">
-			<div class="lang">
+			<div class="title">
 				<h2>Languages</h2>
-				<p>Python, Java, C, HTML, CSS, JavaScript</p>
+				<p>Python, Java, C, C#, HTML, CSS, JavaScript</p>
 			</div>
-			<div class="int">
+			<div class="title">
 				<h2>Interests</h2>
-				<p>Operating Systems, Compilers, Cybersecurity, Low-Level Programming</p>
+				<p>Operating Systems, Compilers, Cybersecurity, Video Game Development</p>
 			</div>
-			<div class="tools">
+			<div class="title">
 				<h2>Tools</h2>
-				<p>Neovim, VSCode, React, Django, SQL, Linux</p>
+				<p>Neovim, VSCode, React, Django, SQL, Linux, Unreal Game Engine</p>
 			</div>
 		</div>
 
+		<hr>
 
+		<div class="socials">
+			<span>Copyright © 2024 | All rights reserved.</span>
+			<a href="https://github.com/wast3rr" target="_blank">
+				<img src="../icons/githublogo.jpg" alt="Github" class="icon" />
+			</a>
+			<a href="https://twitter.com/wast3r_" target="_blank">
+				<img src="../icons/twitterlogo.png" alt="Twitter" class="icon" />
+			</a>
+			<a href="mailto:karenp0813@gmail.com" target="_blank">
+				<img src="../icons/emailicon.png" alt="Email" class="icon" />
+			</a>
+		</div>
 	</body>
 </html>
