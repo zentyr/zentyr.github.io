@@ -1,3 +1,3 @@
-[My Personal Portfolio](www.karenpedri.com)
+[My Personal Portfolio](karenpedri.com)
 
 All code written by me, no templates.
