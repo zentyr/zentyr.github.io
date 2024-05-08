@@ -115,4 +115,9 @@ span {
 	.socials {
 		margin-bottom: 50px;
 	}
+
+	.icon{
+		width: 20px;
+		height: 20px;
+	}
 }
